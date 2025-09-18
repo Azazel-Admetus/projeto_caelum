@@ -16,7 +16,7 @@ PYTHON/
   - `gru.py` → Cria o modelo totalmente do zero e treina ele.
   - `main.py` → Aprimora o código do arquivo `gru.py`.
   - `solum.py` → Utiliza outro método de interação. O algoritmo retorna respostas com base em pergunta pré-definidas no arquivo csv.
-  - `voz.py` → Cria o arquivo para transformar texto em áudio. Foi utilizado como teste inicial dessa nova funcionalidade adicionada aos modelos
+  - `voz.py` → Cria o arquivo para transformar texto em áudio. Foi utilizado como teste inicialj dessa nova funcionalidade adicionada aos modelos
 
 ### DATA/
 - Contém arquivos CSV ou outros dados necessários para os scripts.
