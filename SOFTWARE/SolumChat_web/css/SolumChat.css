@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+/* Estrutura principal */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    padding: 12px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#logoSolumChat {
+    height: 150px;
+}
+/* Centralização da mensagem inicial */
+.titulo {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 123, 255, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fadeInCenter 1.2s ease forwards;
+    z-index: 5;
+}
+
+/* Efeito para esconder */
+.titulo.hidden {
+    animation: fadeOutCenter 0.8s ease forwards;
+}
+/* Rodapé fixo */
+footer {
+    padding: 16px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+}
+/* Chat ajustado para não colidir com o rodapé */
+#chatMensagens {
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 100px; /* espaço pro input fixo */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Mensagens */
+.mensagem {
+    display: flex;
+    align-items: flex-start;
+    max-width: 75%;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.mensagem.solum {
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.mensagem.usuario {
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.mensagem img.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 0 8px;
+    border: 2px solid #dbcdac;
+}
+
+.mensagem p.texto {
+    padding: 12px 15px;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    word-wrap: break-word;
+}
+
+/* Estilos diferentes para cada lado */
+.mensagem.solum p.texto {
+    background: #4a5841;
+    color: #fff;
+}
+
+.mensagem.usuario p.texto {
+    background: #3a3a3a;
+    color: #f1f1f1;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #1e1e1e;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+input[type="text"]:focus {
+    background: #2c2c2c;
+    border: 1px solid #0f1c27;
+}
+
+/* Botões */
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Animações */
+@keyframes fadeInCenter {
+    from { opacity: 0; transform: translate(-50%, -60%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+@keyframes fadeOutCenter {
+    from { opacity: 1; transform: translate(-50%, -50%); }
+    to { opacity: 0; transform: translate(-50%, -40%); }
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    #logoSolumChat {
+        height: 100px;
+    }
+    button {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #logoSolumChat {
+        height: 70px;
+    }
+    button {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+}

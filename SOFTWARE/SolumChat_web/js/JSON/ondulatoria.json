@@ -1,0 +1,301 @@
+[
+  {
+    "perguntas": [
+      "O que é uma onda?",
+      "Explique o conceito de onda.",
+      "Como algo se propaga de um lado para o outro?"
+    ],
+    "resposta": "Uma onda é uma perturbação que se propaga pelo espaço ou por um meio, transportando energia sem transportar matéria de forma permanente.",
+    "tags": ["ondulatória", "conceito", "fundamentos"]
+  },
+  {
+    "perguntas": [
+      "Quais são os tipos de ondas?",
+      "Explique os tipos de ondas.",
+      "O que é onda longitudinal e transversal?"
+    ],
+    "resposta": "Existem ondas mecânicas, que precisam de um meio para se propagar, e ondas eletromagnéticas, que podem viajar no vácuo. As ondas mecânicas podem ser transversais, onde a perturbação é perpendicular à direção de propagação, ou longitudinais, onde a perturbação é paralela à propagação.",
+    "tags": ["ondulatória", "tipos de ondas"]
+  },
+  {
+    "perguntas": [
+      "O que é frequência?",
+      "Explique frequência de uma onda.",
+      "Como medir quão rápido algo vibra?"
+    ],
+    "resposta": "Frequência é o número de vezes que uma onda se repete em um certo intervalo de tempo. Por exemplo, um som agudo tem frequência alta, enquanto um grave tem frequência baixa.",
+    "tags": ["ondulatória", "frequência", "som"]
+  },
+  {
+    "perguntas": [
+      "O que é amplitude?",
+      "Explique amplitude de uma onda.",
+      "Como a onda fica mais forte ou mais fraca?"
+    ],
+    "resposta": "Amplitude é a altura da onda, que está relacionada à quantidade de energia que ela carrega. Uma onda com maior amplitude é mais intensa, como um som mais alto ou uma onda maior na água.",
+    "tags": ["ondulatória", "amplitude", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que é reflexão de onda?",
+      "Explique reflexão.",
+      "Como uma onda bate em uma parede e volta?"
+    ],
+    "resposta": "Reflexão é quando uma onda encontra um obstáculo e retorna ao meio de origem. Por exemplo, o eco de sua voz em um prédio é resultado da reflexão do som.",
+    "tags": ["ondulatória", "reflexão", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é refração?",
+      "Explique refração de ondas.",
+      "Como a onda muda de direção ao entrar em outro meio?"
+    ],
+    "resposta": "Refração é a mudança de direção de uma onda quando ela passa de um meio para outro, devido à mudança na velocidade de propagação. Um exemplo é um canudo que parece quebrado dentro de um copo de água.",
+    "tags": ["ondulatória", "refração", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é interferência?",
+      "Explique interferência de ondas.",
+      "Como duas ondas se combinam?"
+    ],
+    "resposta": "Interferência ocorre quando duas ou mais ondas se encontram e se combinam, podendo aumentar ou diminuir a intensidade. Por exemplo, ondas na água podem se somar ou se cancelar em alguns pontos.",
+    "tags": ["ondulatória", "interferência", "superposição"]
+  },
+  {
+    "perguntas": [
+      "O que é o efeito Doppler?",
+      "Explique efeito Doppler.",
+      "Por que o som da sirene muda quando o carro passa?"
+    ],
+    "resposta": "O efeito Doppler é a mudança aparente da frequência de uma onda quando a fonte ou o observador está em movimento. Por exemplo, a sirene de uma ambulância parece mais aguda quando se aproxima e mais grave quando se afasta.",
+    "tags": ["ondulatória", "Doppler", "som"]
+  },
+  {
+    "perguntas": [
+      "O que é onda sonora?",
+      "Explique ondas sonoras.",
+      "Como o som se propaga pelo ar?"
+    ],
+    "resposta": "Onda sonora é uma onda mecânica longitudinal que se propaga em meios materiais como ar, água ou sólidos. É a forma como ouvimos sons: as partículas do meio vibram e transmitem energia até nossos ouvidos.",
+    "tags": ["ondulatória", "som", "ondas mecânicas"]
+  },
+  {
+    "perguntas": [
+      "O que é superposição?",
+      "Explique superposição de ondas.",
+      "Como duas ondas se combinam e formam outra?"
+    ],
+    "resposta": "Superposição é o fenômeno em que duas ou mais ondas ocupam o mesmo espaço ao mesmo tempo, somando-se ou cancelando-se. Isso acontece, por exemplo, quando duas ondas na água se encontram e formam padrões diferentes.",
+    "tags": ["ondulatória", "superposição", "interferência"]
+  },
+  {
+    "perguntas": [
+      "O que são ondas na água?",
+      "Explique ondas aquáticas.",
+      "Como as ondas do mar se formam?"
+    ],
+    "resposta": "Ondas na água são perturbações que se propagam na superfície de líquidos. Elas são formadas pelo vento, movimento de objetos ou marés, e podem se combinar e refletir ao atingir obstáculos.",
+    "tags": ["ondulatória", "água", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é ressonância?",
+      "Explique ressonância.",
+      "Como algo vibra mais se a gente empurra no ritmo certo?"
+    ],
+    "resposta": "Ressonância é o fenômeno em que um sistema oscila com maior amplitude quando a frequência da força externa coincide com sua frequência natural. Por exemplo, empurrar um balanço na hora certa faz ele ir mais alto.",
+    "tags": ["ondulatória", "ressonância", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é difração?",
+      "Explique difração de ondas.",
+      "Como a onda passa por uma fresta e se espalha?"
+    ],
+    "resposta": "Difração é o desvio de uma onda ao contornar obstáculos ou passar por aberturas. Por exemplo, o som de alguém falando em outra sala chega até você contornando a parede.",
+    "tags": ["ondulatória", "difração", "fenômenos"]
+  },
+  {
+    "perguntas": [
+      "O que é absorção de onda?",
+      "Explique como ondas são absorvidas.",
+      "Por que o som fica mais fraco em um quarto cheio de cortinas?"
+    ],
+    "resposta": "Absorção é quando parte da energia da onda é convertida em outra forma, como calor, diminuindo sua intensidade. Materiais macios, como cortinas e carpetes, absorvem parte do som.",
+    "tags": ["ondulatória", "absorção", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é onda eletromagnética?",
+      "Explique ondas eletromagnéticas.",
+      "Como a luz e o Wi-Fi se propagam?"
+    ],
+    "resposta": "Ondas eletromagnéticas são ondas que não precisam de um meio material para se propagar. Elas carregam energia na forma de campos elétricos e magnéticos oscilantes, como a luz, rádio e Wi-Fi.",
+    "tags": ["ondulatória", "ondas eletromagnéticas", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é eco?",
+      "Explique eco.",
+      "Por que ouvimos nossa voz refletida em um prédio?"
+    ],
+    "resposta": "Eco é o som refletido por superfícies distantes que chega aos nossos ouvidos algum tempo depois do som original. Ele ocorre quando o som encontra uma superfície lisa e dura.",
+    "tags": ["ondulatória", "eco", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é interferência construtiva?",
+      "Explique interferência construtiva.",
+      "Como duas ondas se somam e ficam mais fortes?"
+    ],
+    "resposta": "Interferência construtiva ocorre quando duas ondas se encontram em fase, aumentando a amplitude resultante. Por exemplo, sons combinados podem ficar mais altos em certos pontos de um palco.",
+    "tags": ["ondulatória", "interferência", "construtiva"]
+  },
+  {
+    "perguntas": [
+      "O que é interferência destrutiva?",
+      "Explique interferência destrutiva.",
+      "Como duas ondas podem se cancelar?"
+    ],
+    "resposta": "Interferência destrutiva ocorre quando duas ondas se encontram em oposição de fase, diminuindo ou anulando a amplitude. Isso pode ser percebido quando dois sons se misturam e ficam mais fracos em certos pontos.",
+    "tags": ["ondulatória", "interferência", "destrutiva"]
+  },
+  {
+    "perguntas": [
+      "O que é ultrassom?",
+      "Explique ondas ultrassônicas.",
+      "Como alguns animais conseguem ouvir sons que nós não ouvimos?"
+    ],
+    "resposta": "Ultrassom é uma onda sonora com frequência acima da capacidade de audição humana. Animais como morcegos e golfinhos usam ultrassom para se orientar e se comunicar.",
+    "tags": ["ondulatória", "ultrassom", "som"]
+  },
+  {
+    "perguntas": [
+      "O que é infrassom?",
+      "Explique ondas infrassônicas.",
+      "Como sons muito graves podem atravessar longas distâncias?"
+    ],
+    "resposta": "Infrassom é uma onda sonora com frequência abaixo da capacidade de audição humana. Ele se propaga por grandes distâncias e é usado por alguns animais, como elefantes, para comunicação.",
+    "tags": ["ondulatória", "infrassom", "som"]
+  },
+  {
+    "perguntas": [
+      "O que é intensidade de uma onda?",
+      "Explique intensidade.",
+      "Como saber se o som ou a onda está forte ou fraco?"
+    ],
+    "resposta": "Intensidade é a quantidade de energia transportada pela onda por unidade de área. No som, quanto maior a intensidade, mais alto ele parece para nossos ouvidos.",
+    "tags": ["ondulatória", "intensidade", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que é pulso?",
+      "Explique pulso de onda.",
+      "Como uma única onda se move?"
+    ],
+    "resposta": "Pulso é uma onda isolada, única, que se propaga pelo meio. Por exemplo, se você dá um impulso rápido em uma corda esticada, isso cria um pulso que se move de um lado para o outro.",
+    "tags": ["ondulatória", "pulso", "ondas mecânicas"]
+  },
+  {
+    "perguntas": [
+      "O que é onda estacionária?",
+      "Explique ondas estacionárias.",
+      "Como algumas ondas parecem não se mover?"
+    ],
+    "resposta": "Onda estacionária é formada quando duas ondas de mesma frequência e amplitude se propagam em sentidos opostos, interferindo entre si. Ela cria pontos que parecem imóveis e outros que vibram, como cordas de instrumentos musicais.",
+    "tags": ["ondulatória", "ondas estacionárias", "interferência"]
+  },
+  {
+    "perguntas": [
+      "Como funciona o micro-ondas?",
+      "Explique o funcionamento do forno micro-ondas.",
+      "Como ele esquenta a comida tão rápido?"
+    ],
+    "resposta": "O micro-ondas utiliza ondas eletromagnéticas de alta frequência para fazer as moléculas de água vibrar rapidamente, aquecendo a comida de dentro para fora.",
+    "tags": ["ondulatória", "micro-ondas", "aplicações"]
+  },
+  {
+    "perguntas": [
+      "Como o rádio transmite música?",
+      "Explique ondas de rádio.",
+      "Como o som chega até meu rádio sem fio?"
+    ],
+    "resposta": "O rádio transmite sinais através de ondas eletromagnéticas que se propagam pelo ar. O receptor converte essas ondas de volta em som audível.",
+    "tags": ["ondulatória", "rádio", "aplicações"]
+  },
+  {
+    "perguntas": [
+      "O que é sonar?",
+      "Explique como funciona o sonar.",
+      "Como navios detectam obstáculos debaixo d'água?"
+    ],
+    "resposta": "Sonar usa ondas sonoras para detectar objetos debaixo d'água. O aparelho emite ondas que refletem nos obstáculos e retornam, permitindo medir distância e forma.",
+    "tags": ["ondulatória", "sonar", "aplicações"]
+  },
+  {
+    "perguntas": [
+      "Como funciona a acústica de uma sala?",
+      "Explique acústica.",
+      "Por que alguns lugares têm eco e outros não?"
+    ],
+    "resposta": "Acústica é o estudo de como o som se comporta em um ambiente. Materiais, formas e superfícies influenciam reflexão, absorção e difusão das ondas sonoras.",
+    "tags": ["ondulatória", "acústica", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que são ondas de rádio AM e FM?",
+      "Explique diferença entre AM e FM.",
+      "Como meu rádio consegue pegar sinais diferentes?"
+    ],
+    "resposta": "Ondas AM modulam a amplitude da onda para transmitir informação, enquanto ondas FM modulam a frequência. Ambas carregam som até seu aparelho receptor.",
+    "tags": ["ondulatória", "rádio", "modulação"]
+  },
+  {
+    "perguntas": [
+      "Como funciona o ultrassom médico?",
+      "Explique ultrassom na medicina.",
+      "Como o médico consegue ver meu bebê na tela?"
+    ],
+    "resposta": "O ultrassom médico emite ondas sonoras de alta frequência que refletem nos tecidos do corpo. Um computador interpreta os ecos para criar imagens internas.",
+    "tags": ["ondulatória", "ultrassom", "medicina"]
+  },
+  {
+    "perguntas": [
+      "Como funciona o Wi-Fi?",
+      "Explique ondas de Wi-Fi.",
+      "Como meu celular recebe internet sem fio?"
+    ],
+    "resposta": "O Wi-Fi usa ondas eletromagnéticas para transmitir dados entre roteadores e dispositivos. Essas ondas carregam informação de forma rápida e sem fios.",
+    "tags": ["ondulatória", "Wi-Fi", "aplicações"]
+  },
+  {
+    "perguntas": [
+      "O que são infravermelhos?",
+      "Explique ondas infravermelhas.",
+      "Como o controle remoto funciona?"
+    ],
+    "resposta": "Ondas infravermelhas são ondas eletromagnéticas com energia abaixo da luz visível. Elas são usadas em controles remotos para enviar sinais a aparelhos.",
+    "tags": ["ondulatória", "infravermelho", "aplicações"]
+  },
+  {
+    "perguntas": [
+      "Como funciona o radar?",
+      "Explique radar.",
+      "Como aviões e carros detectam obstáculos?"
+    ],
+    "resposta": "O radar emite ondas eletromagnéticas que refletem em objetos próximos. Medindo o tempo que a onda leva para voltar, é possível determinar distância e velocidade.",
+    "tags": ["ondulatória", "radar", "aplicações"]
+  },
+  {
+    "perguntas": [
+      "O que é eco de som na tecnologia?",
+      "Explique reflexo de som em sistemas.",
+      "Como assistentes de voz detectam o ambiente?"
+    ],
+    "resposta": "Alguns dispositivos usam eco de som para medir distâncias ou detectar obstáculos, aproveitando o tempo que leva para ondas sonoras refletirem e retornarem.",
+    "tags": ["ondulatória", "eco", "tecnologia"]
+  }
+
+
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "perguntas": [
+      "O que é inércia?",
+      "Explique o princípio da inércia.",
+      "Por que quando um carro freia eu vou para frente?"
+    ],
+    "resposta": "A inércia é a tendência que um corpo tem de continuar em movimento ou em repouso até que uma força atue sobre ele. É por isso que, quando o carro freia, seu corpo continua se movendo para frente.",
+    "tags": ["mecânica", "inércia", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é força?",
+      "Defina força.",
+      "Como empurrar ou puxar algo funciona?"
+    ],
+    "resposta": "Força é uma ação que pode mudar o estado de movimento de um corpo, ou seja, pode fazê-lo acelerar, frear ou mudar de direção.",
+    "tags": ["mecânica", "força", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é aceleração?",
+      "Explique aceleração.",
+      "Como algo fica mais rápido?"
+    ],
+    "resposta": "A aceleração é a mudança na velocidade de um corpo ao longo do tempo. Se um carro aumenta sua velocidade, ele está acelerando.",
+    "tags": ["mecânica", "aceleração", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é velocidade?",
+      "Explique velocidade.",
+      "Quão rápido algo vai?"
+    ],
+    "resposta": "Velocidade é a medida de quão rápido um objeto se move e em que direção.",
+    "tags": ["mecânica", "velocidade", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é movimento retilíneo uniforme?",
+      "Explique o MRU.",
+      "Quando algo anda sempre igual?"
+    ],
+    "resposta": "O movimento retilíneo uniforme (MRU) ocorre quando um corpo se move em linha reta com velocidade constante, ou seja, sem acelerar nem desacelerar.",
+    "tags": ["mecânica", "MRU", "movimento"]
+  },
+  {
+    "perguntas": [
+      "O que é movimento retilíneo uniformemente acelerado?",
+      "Explique o MRUA.",
+      "Quando algo acelera sempre igual?"
+    ],
+    "resposta": "O movimento retilíneo uniformemente acelerado (MRUA) ocorre quando a velocidade de um corpo muda de forma constante ao longo do tempo.",
+    "tags": ["mecânica", "MRUA", "movimento", "aceleração"]
+  },
+  {
+    "perguntas": [
+      "O que é gravidade?",
+      "Explique a gravidade.",
+      "Por que as coisas caem?"
+    ],
+    "resposta": "Gravidade é a força que atrai os corpos uns para os outros. Na Terra, é essa força que faz objetos caírem e mantém-nos no chão.",
+    "tags": ["mecânica", "gravidade", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é peso?",
+      "Explique peso de um corpo.",
+      "Por que sentimos o peso das coisas?"
+    ],
+    "resposta": "Peso é a força com que a gravidade puxa um corpo. É diferente da massa, que é a quantidade de matéria no corpo.",
+    "tags": ["mecânica", "peso", "gravidade"]
+  },
+  {
+    "perguntas": [
+      "O que é massa?",
+      "Explique massa.",
+      "Por que alguns objetos são mais pesados?"
+    ],
+    "resposta": "Massa é a quantidade de matéria de um corpo. Quanto maior a massa, mais difícil é acelerar ou frear o objeto.",
+    "tags": ["mecânica", "massa", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é atrito?",
+      "Explique atrito.",
+      "Por que algo para de deslizar?"
+    ],
+    "resposta": "Atrito é a força que resiste ao movimento relativo entre duas superfícies em contato. Ele faz com que objetos desacelerem e parem.",
+    "tags": ["mecânica", "atrito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é trabalho em física?",
+      "Explique trabalho.",
+      "Como a força faz algo se mover?"
+    ],
+    "resposta": "Trabalho é quando uma força é aplicada a um corpo e ele se desloca na direção da força. Se você empurra uma caixa e ela se move, você está fazendo trabalho sobre ela.",
+    "tags": ["mecânica", "trabalho", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que é energia cinética?",
+      "Explique energia cinética.",
+      "Como medir quão rápido algo se move?"
+    ],
+    "resposta": "Energia cinética é a energia que um corpo possui por estar em movimento. Quanto mais rápido ele se move, maior sua energia cinética.",
+    "tags": ["mecânica", "energia", "cinética"]
+  },
+  {
+    "perguntas": [
+      "O que é energia potencial?",
+      "Explique energia potencial.",
+      "Como algo pode ter energia parado?"
+    ],
+    "resposta": "Energia potencial é a energia armazenada em um corpo devido à sua posição ou estado. Por exemplo, uma pedra no alto de uma colina tem energia potencial gravitacional.",
+    "tags": ["mecânica", "energia", "potencial"]
+  },
+  {
+    "perguntas": [
+      "O que são as leis de Newton?",
+      "Explique as três leis de Newton.",
+      "Como as leis de movimento funcionam?"
+    ],
+    "resposta": "As leis de Newton explicam como forças afetam o movimento dos corpos. A primeira é a inércia, a segunda relaciona força, massa e aceleração, e a terceira diz que toda ação tem uma reação igual e oposta.",
+    "tags": ["mecânica", "Newton", "leis do movimento"]
+  },
+  {
+    "perguntas": [
+      "O que é impulso?",
+      "Explique impulso.",
+      "Como empurrar algo rápido funciona?"
+    ],
+    "resposta": "Impulso é a mudança de quantidade de movimento de um corpo causada por uma força aplicada durante certo tempo. Ele explica, por exemplo, por que empurrar uma bola por mais tempo a faz ir mais rápido.",
+    "tags": ["mecânica", "impulso", "força"]
+  },
+  {
+    "perguntas": [
+      "O que é quantidade de movimento?",
+      "Explique momentum.",
+      "Como saber quão forte algo se move?"
+    ],
+    "resposta": "A quantidade de movimento, ou momentum, é o produto da massa de um corpo pela sua velocidade. Ela indica quão difícil é parar um corpo em movimento.",
+    "tags": ["mecânica", "momentum", "força", "movimento"]
+  },
+  {
+    "perguntas": [
+      "O que é alavanca?",
+      "Explique como funciona uma alavanca.",
+      "Como faço pra levantar algo pesado usando um pedaço de pau?"
+    ],
+    "resposta": "Uma alavanca é uma barra que gira em torno de um ponto de apoio, permitindo levantar ou mover pesos maiores com menos esforço.",
+    "tags": ["mecânica", "máquinas simples", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é plano inclinado?",
+      "Explique o plano inclinado.",
+      "Por que é mais fácil empurrar algo ladeira acima devagar?"
+    ],
+    "resposta": "O plano inclinado é uma superfície que permite subir ou descer objetos usando menos força, distribuindo o esforço ao longo do caminho.",
+    "tags": ["mecânica", "máquinas simples", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é centro de massa?",
+      "Explique o centro de massa de um corpo.",
+      "Por que algumas coisas caem equilibradas e outras tombam?"
+    ],
+    "resposta": "O centro de massa é o ponto onde podemos imaginar que toda a massa de um corpo está concentrada. Ele ajuda a entender o equilíbrio e a estabilidade dos objetos.",
+    "tags": ["mecânica", "equilíbrio", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é equilíbrio estático?",
+      "Explique equilíbrio estático.",
+      "Como um objeto fica parado sem cair?"
+    ],
+    "resposta": "Equilíbrio estático ocorre quando as forças e torques que atuam sobre um corpo se cancelam, mantendo-o em repouso.",
+    "tags": ["mecânica", "equilíbrio", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é torque?",
+      "Explique torque.",
+      "Como faço para girar uma porta mais fácil?"
+    ],
+    "resposta": "Torque é a força aplicada a uma distância do ponto de rotação, causando rotação. Quanto mais longe você aplica a força, mais fácil é girar.",
+    "tags": ["mecânica", "rotacional", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é movimento circular?",
+      "Explique movimento circular.",
+      "Como uma roda gira?"
+    ],
+    "resposta": "Movimento circular é quando um objeto se move ao longo de um caminho em círculo. A força que mantém o objeto na curva é chamada força centrípeta.",
+    "tags": ["mecânica", "movimento", "rotacional"]
+  },
+  {
+    "perguntas": [
+      "O que é força centrípeta?",
+      "Explique a força centrípeta.",
+      "Como as coisas não saem voando quando giram?"
+    ],
+    "resposta": "A força centrípeta é a força que mantém um objeto em movimento circular, puxando-o em direção ao centro do círculo.",
+    "tags": ["mecânica", "rotacional", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é pêndulo?",
+      "Explique o movimento de um pêndulo.",
+      "Por que o balanço vai pra frente e pra trás sozinho?"
+    ],
+    "resposta": "O pêndulo é um objeto suspenso que se move para frente e para trás devido à gravidade e à inércia, mostrando o equilíbrio entre força e movimento.",
+    "tags": ["mecânica", "movimento", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é colisão elástica?",
+      "Explique colisão elástica.",
+      "Por que bolas de tênis quicam ao bater uma na outra?"
+    ],
+    "resposta": "Colisão elástica é quando dois objetos colidem e a energia cinética total é conservada, fazendo com que quiquem sem perder energia.",
+    "tags": ["mecânica", "colisão", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é colisão inelástica?",
+      "Explique colisão inelástica.",
+      "Por que algumas coisas grudam ou param depois de bater?"
+    ],
+    "resposta": "Colisão inelástica é quando os objetos colidem e parte da energia cinética é transformada em calor, som ou deformação, fazendo com que não quiquem totalmente.",
+    "tags": ["mecânica", "colisão", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é conservação de energia?",
+      "Explique o princípio da conservação de energia.",
+      "Como a energia não se perde, só muda de tipo?"
+    ],
+    "resposta": "A energia não é criada nem destruída; ela apenas muda de forma. Por exemplo, quando você solta uma bola, a energia potencial vira energia cinética.",
+    "tags": ["mecânica", "energia", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é conservação da quantidade de movimento?",
+      "Explique conservação do momentum.",
+      "Por que duas bolas colidem e continuam se movendo de forma previsível?"
+    ],
+    "resposta": "Em um sistema isolado, a quantidade de movimento total antes e depois da colisão permanece igual, ajudando a prever como os corpos vão se mover.",
+    "tags": ["mecânica", "momentum", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é força de atrito estático?",
+      "Explique a diferença entre atrito estático e cinético.",
+      "Por que algo parado não desliza até eu empurrar?"
+    ],
+    "resposta": "O atrito estático impede que objetos em repouso comecem a se mover. Ele é maior que o atrito cinético, que atua quando o objeto já está em movimento.",
+    "tags": ["mecânica", "atrito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é força de atrito cinético?",
+      "Explique atrito cinético.",
+      "Por que uma caixa deslizando desacelera?"
+    ],
+    "resposta": "O atrito cinético é a força que resiste ao movimento de um objeto em movimento sobre uma superfície. Ele faz o objeto parar eventualmente.",
+    "tags": ["mecânica", "atrito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é força normal?",
+      "Explique a força normal.",
+      "Por que a mesa segura a xícara sem deixar cair?"
+    ],
+    "resposta": "A força normal é a força que uma superfície exerce perpendicularmente sobre um objeto que está sobre ela, equilibrando a gravidade e impedindo que caia.",
+    "tags": ["mecânica", "força", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é pressão?",
+      "Explique pressão em física.",
+      "Por que meus pés doem mais se eu andar sobre pedras do que na grama?"
+    ],
+    "resposta": "Pressão é a força aplicada sobre uma área. Quanto menor a área, maior a pressão para a mesma força.",
+    "tags": ["mecânica", "força", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é densidade?",
+      "Explique densidade de um corpo.",
+      "Por que alguns objetos flutuam na água e outros afundam?"
+    ],
+    "resposta": "Densidade é a relação entre massa e volume de um corpo. Objetos menos densos que a água flutuam, e objetos mais densos afundam.",
+    "tags": ["mecânica", "fluido", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é empuxo?",
+      "Explique o princípio do empuxo.",
+      "Por que um balão de ar quente sobe?"
+    ],
+    "resposta": "Empuxo é a força para cima que um fluido exerce sobre um corpo imerso nele. É o que faz barcos flutuarem e balões subirem.",
+    "tags": ["mecânica", "fluido", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é velocidade angular?",
+      "Explique velocidade angular.",
+      "Como medir a rapidez de uma roda girando?"
+    ],
+    "resposta": "Velocidade angular é a rapidez com que um objeto gira em torno de um eixo, medida em graus ou radianos por segundo.",
+    "tags": ["mecânica", "rotacional", "movimento"]
+  },
+  {
+    "perguntas": [
+      "O que é aceleração centrípeta?",
+      "Explique aceleração centrípeta.",
+      "Por que carros fazem curvas e não saem voando?"
+    ],
+    "resposta": "A aceleração centrípeta é a aceleração que mantém um corpo em movimento circular, apontando sempre para o centro da curva.",
+    "tags": ["mecânica", "rotacional", "movimento"]
+  },
+  {
+    "perguntas": [
+      "O que é energia mecânica?",
+      "Explique energia mecânica.",
+      "Como a energia de uma bola rolando é calculada?"
+    ],
+    "resposta": "Energia mecânica é a soma da energia cinética e potencial de um corpo. Ela se conserva quando não há forças dissipativas como o atrito.",
+    "tags": ["mecânica", "energia", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é potência em física?",
+      "Explique potência.",
+      "Como medir o quão rápido trabalho é feito?"
+    ],
+    "resposta": "Potência é a quantidade de trabalho realizado por unidade de tempo. Quanto mais rápido você empurra algo, maior a potência.",
+    "tags": ["mecânica", "energia", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é inércia rotacional?",
+      "Explique inércia em corpos que giram.",
+      "Por que é mais difícil girar uma roda pesada?"
+    ],
+    "resposta": "Inércia rotacional é a resistência que um objeto oferece para mudar seu estado de rotação. Quanto mais massa e distância do eixo, mais difícil é girar.",
+    "tags": ["mecânica", "rotacional", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é momento de inércia?",
+      "Explique o momento de inércia.",
+      "Como saber se algo gira fácil ou difícil?"
+    ],
+    "resposta": "O momento de inércia mede a resistência de um corpo à rotação. Depende da distribuição de massa em relação ao eixo de rotação.",
+    "tags": ["mecânica", "rotacional", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é conservação do momento angular?",
+      "Explique momento angular.",
+      "Por que patinadores giram mais rápido quando fecham os braços?"
+    ],
+    "resposta": "O momento angular total de um corpo em rotação se mantém constante se não houver torques externos. Ao fechar os braços, o patinador diminui seu momento de inércia e gira mais rápido.",
+    "tags": ["mecânica", "rotacional", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é movimento oscilatório?",
+      "Explique movimento oscilatório.",
+      "Como funciona um balanço ou um pêndulo?"
+    ],
+    "resposta": "Movimento oscilatório é aquele que se repete regularmente em torno de uma posição de equilíbrio, como o balanço de um pêndulo.",
+    "tags": ["mecânica", "movimento", "cotidiano"]
+  }
+]

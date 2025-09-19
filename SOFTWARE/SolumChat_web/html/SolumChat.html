@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SolumChat é seu assistente virtual educativo de Física Clássica. Pergunte sobre Mecânica, Termologia, Óptica, Ondulatória, Eletromagnetismo e mais!">
+    <meta name="keywords" content="Física, Mecânica, Termologia, Óptica, Eletromagnetismo, Chat, SolumChat, Aprender Física">
+    <meta name="author" content="Azazel Admetus">
+    <link rel="icon" href="../image/logo-aba.png" type="image/png">
+    <link rel="stylesheet" href="../css/SolumChat.css?v=1.1">
+    <title>SolumChat - Tire suas dúvidas sobre Física Clássica</title>
+</head>
+<body>
+    <header>
+        <img src="../image/ProjetoCaelum-semBg.png" alt="Logo oficial do projeto caelum" id="logoSolumChat">
+        <button id="btnLimpar">Limpar</button>
+    </header>
+    <main>
+        <header>
+            <h1 class="titulo" id="tituloDinamico">Seja-bem vindo ao SolumChat. <br>Tire suas dúvidas sobre física</h1>
+        </header>
+        <section id="chatMensagens"></section>
+    </main>
+    <footer>
+        <form id="formChat">
+            <input type="text" id="inputMensagem" placeholder="Diga sua dúvida...">
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script>
+    /* ========== Persona ========== */
+    class SolumFormatter {
+        constructor(){
+            this.identityTriggers = ['solum','robô','basileus','majestade','senhor','grande imperador'];
+            this.introPhrases = [
+                "Saudações! Meu ilustre nome é Solum Basileus, o único majestoso desse domínio, humilde o suficiente para dividir com vós a minha grandiosa sabedoria. Sinta-se honrado, humano.",
+                "Eu sou Solum Basileus, o soberano supremo deste reino do conhecimento. Pergunte, e eu, em minha infinita sabedoria, compartilharei um fragmento do meu vasto entendimento.",
+                "Aqui está Solum Basileus, o grande imperador do saber. Pergunte, e eu, em minha magnânima benevolência, concederei a você um vislumbre da minha sabedoria incomensurável."
+            ];
+            this.fallbacks = [
+                "Fascinante, humano… ainda não possuo registros precisos sobre isso, mas sinto que logo entenderei.",
+                "Interessante, humano… ainda não tenho registros precisos sobre isso, mas sinto que logo entenderei.",
+                "Essa questão desperta minha mente, mas sinto que precisarei caminhar por mais tempo no caminho da sabedoria para se tornar ainda mais digno de lhe entregar uma resposta mais completa. ",
+            ];
+        }
+
+    random(arr){ 
+        return arr[Math.floor(Math.random()*arr.length)]; 
+    }
+
+    formatResponse(userInput, rawResponse=null, tema=null){
+        const lower = userInput.toLowerCase();
+
+        // Se o usuário mencionar a persona
+        const falarPersona = this.identityTriggers.some(t => lower.includes(t)) 
+            ? this.random(this.introPhrases) + " "
+            : "";
+
+        // Se temos resposta base, adiciona contexto por tema
+        if(rawResponse) {
+            let respostaComContexto = rawResponse;
+
+            // Exemplo: pequenas dicas por tema
+            if(tema === "mecanica") respostaComContexto += "\n💡 Dica: Lembre-se das Leis de Newton ao aplicar essa resposta.";
+            if(tema === "termologia") respostaComContexto += "\n💡 Dica: Observe os conceitos de calor e temperatura.";
+            // outros temas podem ser adicionados aqui...
+
+            return falarPersona + respostaComContexto;
+        }
+
+        // Se não houver resposta, mostrar fallback
+        return falarPersona + this.random(this.fallbacks);
+    }
+}
+
+    const solumFormatter = new SolumFormatter();
+
+    /* ========== Chat Setup ========== */
+    const chatMensagens = document.getElementById("chatMensagens");
+    const formChat = document.getElementById("formChat");
+    const inputMensagem = document.getElementById("inputMensagem");
+    const tituloDinamico = document.getElementById("tituloDinamico");
+
+
+    const temas = ["mecanica", "termologia", "ondulatoria", "optica", "eletromagnetismo", "biografia", "caelum"];
+    let todosOsDados = [];
+    
+    async function carregarTodosOsTemas() {
+        for (const tema of temas) {
+            // Carregar JSON
+            try {
+                const resJson = await fetch(`../js/JSON/${tema}.json`);
+                const dadosJson = await resJson.json();
+                todosOsDados.push(...dadosJson.map(d => ({ ...d, tema })));
+            } catch(e) {
+                console.warn(`Erro carregando JSON do tema ${tema}:`, e);
+            }
+
+            // Carregar CSV com três colunas: pergunta,resposta,tags
+            try {
+                const resCsv = await fetch(`../js/CSV/${tema}.csv`);
+                const textoCsv = await resCsv.text();
+                const linhas = textoCsv.split("\n");
+
+                linhas.forEach(linha => {
+                    const [pergunta, resposta, tags] = linha.split(",");
+                    if(pergunta && resposta) {
+                        todosOsDados.push({
+                            perguntas: [pergunta.trim()],
+                            resposta: resposta.trim(),
+                            tema,
+                            tags: tags ? tags.split(",").map(t => t.trim()) : []
+                        });
+                    }
+                });
+            } catch(e) {
+                console.warn(`Erro carregando CSV do tema ${tema}:`, e);
+            }
+        }
+
+        return todosOsDados;
+    }
+    let fuse;
+    function inicializarFuse(){
+        fuse = new Fuse(todosOsDados, {
+            keys: ['perguntas', 'tags'],
+            includeScore:true,
+            threshold: 0.4,
+            ignoreLocation: true
+        })
+    }
+    function buscarResposta(userInput) {
+    if(!fuse) inicializarFuse();
+    
+    const resultados = fuse.search(userInput);
+
+    if(resultados.length > 0){
+        const melhor = resultados[0].item;
+        return `[${melhor.tema}]: ${melhor.resposta}`;
+    }
+
+    return null;  // fallback se não achar nada
+}
+
+    carregarTodosOsTemas().then(() => {
+        inicializarFuse();
+        console.log("Fuse.js inicializado com todos os dados.");
+    });
+
+    /* Memória simples */
+    let memoriaChat = JSON.parse(localStorage.getItem("memoriaChat")||"{}");
+    function registrarPergunta(userInput, resposta){
+        memoriaChat[userInput] = resposta;
+        localStorage.setItem("memoriaChat", JSON.stringify(memoriaChat));
+    }
+    function tentarRecuperar(userInput){
+        return memoriaChat[userInput] || null;
+    }
+
+    /* Funções de chat */
+    function adicionarMensagem(texto, tipo) {
+        const div = document.createElement("div");
+        div.classList.add("mensagem", tipo);
+
+        // avatar
+        const avatar = document.createElement("img");
+        avatar.classList.add("avatar");
+        avatar.alt = tipo === "solum" ? "Avatar Solum" : "Avatar Usuário";
+
+        // caminhos — verifique se existem esses arquivos. se não, tem fallback abaixo.
+        avatar.src = tipo === "solum" ? "../image/AvatarSolum.png" : "../image/AvatarUser.png";
+
+        // fallback SVG caso a imagem externa não carregue
+        avatar.onerror = () => {
+            const svg = encodeURIComponent(
+                tipo === "solum"
+                ? `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='100%' height='100%' fill='#4a5841'/><circle cx='32' cy='22' r='12' fill='#fff'/></svg>`
+                : `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='100%' height='100%' fill='#3a3a3a'/><circle cx='32' cy='20' r='12' fill='#fff'/></svg>`
+            );
+            avatar.src = "data:image/svg+xml;utf8," + svg;
+            avatar.onerror = null;
+        };
+
+        // parágrafo com classe 'texto' (importante para o CSS)
+        const p = document.createElement("p");
+        p.classList.add("texto");
+        p.textContent = texto;
+
+        // APPEND: avatar primeiro, depois texto.
+        // Com o CSS que você já tem (.mensagem.usuario { flex-direction: row-reverse; }),
+        // isso garante que o avatar do usuário apareça à direita visualmente.
+        div.appendChild(avatar);
+        div.appendChild(p);
+
+        chatMensagens.appendChild(div);
+
+        // Scroll inteligente: só auto-scroll se o usuário estiver perto do fim
+        const distanciaDoFim = chatMensagens.scrollHeight - chatMensagens.scrollTop - chatMensagens.clientHeight;
+        const estaPertoDoFim = distanciaDoFim < 50;
+        if (estaPertoDoFim) {
+            chatMensagens.scrollTop = chatMensagens.scrollHeight;
+        }
+
+        return div;
+    }
+
+    function gerarRespostaInteligente(userInput){
+        const lower = userInput.toLowerCase();
+
+        // Histórico das últimas 3 perguntas
+        const historicoChaves = Object.keys(memoriaChat);
+        const ultimasPerguntas = historicoChaves.slice(-3);
+
+        //Tentar recuperar memória exata
+        if(memoriaChat[lower]) return memoriaChat[lower];
+
+        // Buscar nos dados via Fuse.js
+        const resultados = fuse.search(userInput);
+        let respostaBase = null;
+        let tema = null;
+
+        if(resultados.length > 0){
+            const melhor = resultados[0].item;
+            respostaBase = melhor.resposta;
+            tema = melhor.tema;
+        }
+
+        // Adicionar contexto do histórico
+        let contextoHistorico = "";
+        if(ultimasPerguntas.length > 0){
+            contextoHistorico = "\n🔹 Lembre-se do que conversamos antes:";
+            ultimasPerguntas.forEach(q => {
+                contextoHistorico += `\n- "${q}"`;
+            });
+        }
+
+        // Formatar resposta usando SolumFormatter
+        const respostaFinal = solumFormatter.formatResponse(userInput, respostaBase ? respostaBase + contextoHistorico : null, tema);
+
+        // Salvar na memória
+        registrarPergunta(lower, respostaFinal);
+
+        return respostaFinal;
+    }
+
+
+    // =======================
+    // 1) Função para esconder/remover o título dinâmico
+    // =======================
+    function hideTituloDinamico() {
+        if (!tituloDinamico) return;
+        if (!tituloDinamico.classList.contains('hidden')) {
+            tituloDinamico.classList.add('hidden');
+
+            // remove o elemento ao terminar a animação
+            function onAnimEnd() {
+                tituloDinamico.removeEventListener('animationend', onAnimEnd);
+                if (tituloDinamico.parentNode) tituloDinamico.parentNode.removeChild(tituloDinamico);
+            }
+            tituloDinamico.addEventListener('animationend', onAnimEnd);
+
+            // fallback caso a animação não dispare
+            setTimeout(() => {
+                if (tituloDinamico.parentNode) tituloDinamico.parentNode.removeChild(tituloDinamico);
+            }, 900);
+        }   
+    }
+    //função para síntese de voz
+    function falar(texto) {
+        if ('speechSynthesis' in window) {
+            const utterance = new SpeechSynthesisUtterance(texto);
+            utterance.lang = 'pt-BR'; // garante que fale em português
+            speechSynthesis.speak(utterance);
+        } else {
+            console.warn("Navegador não suporta síntese de voz");
+        }
+    }
+    // Seleciona o botão
+    const btnLimpar = document.getElementById("btnLimpar");
+    
+    btnLimpar.addEventListener("click", () => {
+        // Limpa o conteúdo do chat
+        chatMensagens.innerHTML = "";
+    
+        // Opcional: limpa a memória do chat
+        memoriaChat = {};
+        localStorage.setItem("memoriaChat", JSON.stringify(memoriaChat));
+    
+        // Se quiser, você também pode restaurar o título dinâmico
+        if(tituloDinamico) {
+            tituloDinamico.classList.remove('hidden');
+            if(!document.body.contains(tituloDinamico)) {
+                document.querySelector('main header').appendChild(tituloDinamico);
+            }
+        }
+    });
+
+    /* Envio */
+    formChat.addEventListener("submit", function(e) {
+        e.preventDefault();
+        const msg = inputMensagem.value.trim();
+        if (!msg) return;
+
+        // Esconde o título na primeira mensagem
+        hideTituloDinamico();
+
+        // Mostra a mensagem do usuário
+        adicionarMensagem(msg, "usuario");
+
+        // Gera resposta (já formatada dentro de gerarRespostaInteligente)
+        let resposta = gerarRespostaInteligente(msg);
+
+        setTimeout(() => {
+            adicionarMensagem(resposta, "solum");
+            if (typeof falar === "function") falar(resposta);
+        }, 300);
+
+        inputMensagem.value = "";
+    });
+
+    </script>
+</body>
+</html>
