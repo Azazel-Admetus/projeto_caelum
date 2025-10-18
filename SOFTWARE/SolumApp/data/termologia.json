@@ -1,0 +1,119 @@
+[
+  {
+    "perguntas": [
+      "O que é temperatura?",
+      "Explique o que é temperatura.",
+      "Como sentimos se algo está quente ou frio?"
+    ],
+    "resposta": "Temperatura é uma medida de quão quente ou frio um corpo está, relacionada à agitação das partículas que o compõem.",
+    "tags": ["termologia", "temperatura", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é calor?",
+      "Explique o calor.",
+      "Como o calor passa de um corpo para outro?"
+    ],
+    "resposta": "Calor é a energia que se transfere de um corpo mais quente para um corpo mais frio até que ambos fiquem na mesma temperatura.",
+    "tags": ["termologia", "calor", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que é dilatação térmica?",
+      "Explique dilatação.",
+      "Por que o trilho do trem parece se alongar no verão?"
+    ],
+    "resposta": "Dilatação térmica é o aumento do tamanho de um corpo quando ele aquece. Isso acontece porque as partículas se afastam com o aumento da temperatura.",
+    "tags": ["termologia", "dilatação", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é condução térmica?",
+      "Como funciona a condução do calor?",
+      "Por que uma colher de metal esquenta na panela?"
+    ],
+    "resposta": "Condução térmica é a transferência de calor através de um material, de uma região mais quente para uma mais fria, sem que o material se mova.",
+    "tags": ["termologia", "condução", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é convecção?",
+      "Explique convecção térmica.",
+      "Por que a água esquenta primeiro na superfície de baixo da panela?"
+    ],
+    "resposta": "Convecção é a transferência de calor em líquidos e gases causada pelo movimento do próprio fluido, onde o quente sobe e o frio desce.",
+    "tags": ["termologia", "convecção", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é radiação térmica?",
+      "Explique radiação do calor.",
+      "Como o Sol esquenta a Terra mesmo sem tocar nela?"
+    ],
+    "resposta": "Radiação térmica é a transferência de energia por ondas eletromagnéticas, sem necessidade de contato direto ou meio material.",
+    "tags": ["termologia", "radiação", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é calor específico?",
+      "Explique calor específico.",
+      "Por que a água demora para esquentar?"
+    ],
+    "resposta": "Calor específico é a quantidade de energia necessária para aumentar a temperatura de uma certa massa de um corpo em um grau Celsius. A água tem calor específico alto, por isso demora para esquentar.",
+    "tags": ["termologia", "calor específico", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que é capacidade térmica?",
+      "Explique capacidade térmica.",
+      "Como sabemos quanta energia algo precisa para esquentar?"
+    ],
+    "resposta": "Capacidade térmica é a quantidade de calor que um corpo precisa receber para ter sua temperatura aumentada em 1 grau. Depende da massa e do material do corpo.",
+    "tags": ["termologia", "capacidade térmica", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que são mudanças de estado físico?",
+      "Explique fusão, vaporização e solidificação.",
+      "Como a água se transforma em gelo ou vapor?"
+    ],
+    "resposta": "Mudanças de estado físico ocorrem quando a matéria passa de sólido, líquido ou gasoso. Fusão é de sólido para líquido, solidificação o inverso, e vaporização de líquido para gás.",
+    "tags": ["termologia", "mudança de estado", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é a primeira lei da termodinâmica?",
+      "Explique conservação de energia térmica.",
+      "Como a energia não se perde quando esquentamos algo?"
+    ],
+    "resposta": "A primeira lei da termodinâmica diz que a energia não se cria nem se destrói, apenas se transforma. O calor recebido por um corpo aumenta sua energia interna ou realiza trabalho.",
+    "tags": ["termologia", "termodinâmica", "energia"]
+  },
+  {
+    "perguntas": [
+      "O que é a segunda lei da termodinâmica?",
+      "Explique entropia.",
+      "Por que o calor sempre vai do quente para o frio?"
+    ],
+    "resposta": "A segunda lei da termodinâmica afirma que a energia tende a se espalhar e que processos naturais aumentam a desordem (entropia). Por isso, o calor flui do corpo mais quente para o mais frio.",
+    "tags": ["termologia", "termodinâmica", "entropia"]
+  },
+  {
+    "perguntas": [
+      "O que é equilíbrio térmico?",
+      "Explique equilíbrio de temperatura.",
+      "Por que quando deixamos um copo de água na mesa ele fica na temperatura do ambiente?"
+    ],
+    "resposta": "Equilíbrio térmico acontece quando dois corpos em contato atingem a mesma temperatura e não há mais transferência de calor entre eles.",
+    "tags": ["termologia", "equilíbrio térmico", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é sensação térmica?",
+      "Explique por que sentimos frio ou calor diferente do que a temperatura indica.",
+      "Por que em dias de vento frio sentimos mais frio que a temperatura real?"
+    ],
+    "resposta": "Sensação térmica é a percepção do frio ou calor pelo corpo humano, influenciada por fatores como vento, umidade e radiação.",
+    "tags": ["termologia", "sensação térmica", "cotidiano"]
+  }
+]

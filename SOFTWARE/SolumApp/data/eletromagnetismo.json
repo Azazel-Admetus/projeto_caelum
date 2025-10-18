@@ -1,0 +1,272 @@
+[
+  {
+    "perguntas": [
+      "O que é eletricidade?",
+      "Explique eletricidade.",
+      "Como a energia elétrica funciona?"
+    ],
+    "resposta": "Eletricidade é o fenômeno associado à presença e ao movimento de cargas elétricas. É a base de tudo que envolve correntes, circuitos e aparelhos elétricos.",
+    "tags": ["eletromagnetismo", "eletricidade", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é corrente elétrica?",
+      "Explique corrente elétrica.",
+      "Como a eletricidade circula?"
+    ],
+    "resposta": "Corrente elétrica é o fluxo de cargas elétricas que circula por um condutor, como os fios, quando há diferença de potencial (tensão).",
+    "tags": ["eletromagnetismo", "corrente elétrica", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é tensão elétrica?",
+      "Explique diferença de potencial.",
+      "Por que uma lâmpada acende?"
+    ],
+    "resposta": "Tensão elétrica, ou diferença de potencial, é a força que faz as cargas elétricas se moverem pelo circuito. É ela que 'empurra' a corrente pelos fios.",
+    "tags": ["eletromagnetismo", "tensão", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é resistência elétrica?",
+      "Explique resistência.",
+      "Por que alguns fios esquentam mais?"
+    ],
+    "resposta": "Resistência elétrica é a oposição que um material oferece à passagem da corrente. Quanto maior a resistência, mais difícil para a corrente passar, e isso pode gerar calor.",
+    "tags": ["eletromagnetismo", "resistência", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é circuito elétrico?",
+      "Explique um circuito elétrico.",
+      "Como a energia chega na lâmpada?"
+    ],
+    "resposta": "Um circuito elétrico é um caminho fechado por onde a corrente elétrica circula. Pode incluir fontes de energia, fios e dispositivos como lâmpadas ou motores.",
+    "tags": ["eletromagnetismo", "circuito", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é magnetismo?",
+      "Explique imãs.",
+      "Como uma bússola funciona?"
+    ],
+    "resposta": "Magnetismo é o fenômeno associado à presença de campos magnéticos, que atraem ou repelem certos materiais. Ímãs possuem polos que geram esses campos.",
+    "tags": ["eletromagnetismo", "magnetismo", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é campo elétrico?",
+      "Explique campo elétrico.",
+      "Como a eletricidade afeta objetos próximos?"
+    ],
+    "resposta": "Campo elétrico é a região ao redor de uma carga elétrica onde ela pode exercer força sobre outras cargas. É como se fosse o 'alcance' da carga.",
+    "tags": ["eletromagnetismo", "campo elétrico", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é campo magnético?",
+      "Explique campo magnético.",
+      "Como ímãs interagem à distância?"
+    ],
+    "resposta": "Campo magnético é a região ao redor de um ímã ou corrente elétrica onde ele pode exercer forças sobre outros ímãs ou correntes. É o que faz a bússola apontar para o norte.",
+    "tags": ["eletromagnetismo", "campo magnético", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é indução eletromagnética?",
+      "Explique indução eletromagnética.",
+      "Como geradores produzem eletricidade?"
+    ],
+    "resposta": "Indução eletromagnética é o fenômeno em que uma corrente elétrica é gerada em um condutor quando ele é exposto a um campo magnético variável. É a base dos geradores elétricos.",
+    "tags": ["eletromagnetismo", "indução", "geradores", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é capacitor?",
+      "Explique capacitor.",
+      "Como um condensador armazena energia?"
+    ],
+    "resposta": "Um capacitor é um componente que armazena energia elétrica temporariamente em um campo elétrico entre suas placas. Ele libera a energia quando necessário no circuito.",
+    "tags": ["eletromagnetismo", "capacitor", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um indutor?",
+      "Explique indutor.",
+      "Como bobinas armazenam energia?"
+    ],
+    "resposta": "Um indutor é um componente que armazena energia em um campo magnético quando a corrente elétrica passa por ele. É usado para controlar o fluxo de corrente em circuitos.",
+    "tags": ["eletromagnetismo", "indutor", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é um gerador elétrico?",
+      "Explique gerador.",
+      "Como se produz eletricidade em usinas?"
+    ],
+    "resposta": "Um gerador elétrico transforma energia mecânica em energia elétrica por meio da indução eletromagnética. Por exemplo, em usinas hidrelétricas, a água em movimento faz girar turbinas que geram eletricidade.",
+    "tags": ["eletromagnetismo", "gerador", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um motor elétrico?",
+      "Explique motor elétrico.",
+      "Como ventiladores funcionam com eletricidade?"
+    ],
+    "resposta": "Um motor elétrico transforma energia elétrica em energia mecânica usando forças magnéticas. É o que faz ventiladores, liquidificadores e carros elétricos se moverem.",
+    "tags": ["eletromagnetismo", "motor", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um circuito em série?",
+      "Explique circuito série.",
+      "Como ligar lâmpadas em linha?"
+    ],
+    "resposta": "Em um circuito em série, os componentes estão ligados um após o outro, de modo que a mesma corrente passa por todos. Se um componente falha, todos param de funcionar.",
+    "tags": ["eletromagnetismo", "circuito", "série", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é um circuito paralelo?",
+      "Explique circuito paralelo.",
+      "Como lâmpadas independentes funcionam?"
+    ],
+    "resposta": "Em um circuito paralelo, os componentes têm caminhos independentes para a corrente. Se um falhar, os outros continuam funcionando, como nas lâmpadas de uma casa.",
+    "tags": ["eletromagnetismo", "circuito", "paralelo", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é Lei de Ohm?",
+      "Explique Lei de Ohm.",
+      "Como calcular tensão, corrente e resistência?"
+    ],
+    "resposta": "A Lei de Ohm relaciona a tensão (V), a corrente (I) e a resistência (R) de um circuito, expressa pela fórmula V = I × R. Ela ajuda a entender como a eletricidade se comporta em diferentes materiais.",
+    "tags": ["eletromagnetismo", "Lei de Ohm", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um transformador?",
+      "Explique transformador.",
+      "Como a energia chega em diferentes tensões nas casas?"
+    ],
+    "resposta": "Um transformador é um dispositivo que altera a tensão de uma corrente elétrica sem mudar a frequência. Ele permite que a energia gerada em alta tensão seja usada com segurança em residências.",
+    "tags": ["eletromagnetismo", "transformador", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que são ondas eletromagnéticas?",
+      "Explique ondas eletromagnéticas.",
+      "Como rádio, TV e Wi-Fi funcionam?"
+    ],
+    "resposta": "Ondas eletromagnéticas são oscilações de campos elétricos e magnéticos que se propagam pelo espaço. Elas incluem rádio, micro-ondas, luz visível e raios X, sendo usadas em comunicação e tecnologia.",
+    "tags": ["eletromagnetismo", "ondas eletromagnéticas", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um campo eletromagnético?",
+      "Explique campo eletromagnético.",
+      "Como eletricidade e magnetismo interagem?"
+    ],
+    "resposta": "Um campo eletromagnético é gerado por cargas em movimento ou por ímãs. Ele combina efeitos elétricos e magnéticos e é a base de tecnologias como antenas e motores.",
+    "tags": ["eletromagnetismo", "campo eletromagnético", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é indução de Faraday?",
+      "Explique indução de Faraday.",
+      "Como um fio gera eletricidade passando por um imã?"
+    ],
+    "resposta": "A indução de Faraday é o fenômeno em que uma corrente elétrica é gerada em um condutor quando ele corta linhas de um campo magnético. É o princípio usado em geradores e transformadores.",
+    "tags": ["eletromagnetismo", "indução de Faraday", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um capacitor?",
+      "Explique capacitor.",
+      "Como guardar energia elétrica em um objeto?"
+    ],
+    "resposta": "Um capacitor é um componente que armazena energia elétrica em um campo elétrico entre duas placas. Ele pode liberar essa energia rapidamente quando necessário, como em flashes de câmera.",
+    "tags": ["eletromagnetismo", "capacitor", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é capacitância?",
+      "Explique capacitância.",
+      "Como medir a capacidade de um capacitor?"
+    ],
+    "resposta": "Capacitância é a quantidade de carga elétrica que um capacitor pode armazenar para cada unidade de tensão aplicada. Quanto maior a capacitância, mais energia ele armazena.",
+    "tags": ["eletromagnetismo", "capacitor", "capacitância", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que acontece quando ligamos capacitores em série?",
+      "Explique capacitores em série.",
+      "Como combinar capacitores em fila?"
+    ],
+    "resposta": "Quando capacitores são ligados em série, a capacitância total diminui, e a tensão se divide entre eles. Esse arranjo é usado para ajustar a tensão suportada por cada capacitor.",
+    "tags": ["eletromagnetismo", "capacitor", "série", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que acontece quando ligamos capacitores em paralelo?",
+      "Explique capacitores em paralelo.",
+      "Como combinar capacitores lado a lado?"
+    ],
+    "resposta": "Quando capacitores são ligados em paralelo, a capacitância total aumenta, e cada capacitor recebe a mesma tensão. Isso permite armazenar mais carga elétrica.",
+    "tags": ["eletromagnetismo", "capacitor", "paralelo", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é a força sobre uma carga em movimento?",
+      "Explique força magnética sobre cargas.",
+      "Como partículas carregadas se movem em ímãs?"
+    ],
+    "resposta": "Uma carga em movimento dentro de um campo magnético sofre uma força perpendicular à direção do movimento e do campo, desviando sua trajetória. Esse princípio é usado em motores e aceleradores de partículas.",
+    "tags": ["eletromagnetismo", "força magnética", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é fluxo magnético?",
+      "Explique fluxo magnético.",
+      "Como medir quantas linhas de campo atravessam uma área?"
+    ],
+    "resposta": "Fluxo magnético é a quantidade de linhas de campo magnético que atravessam uma superfície. Quanto mais linhas passarem, maior o fluxo magnético.",
+    "tags": ["eletromagnetismo", "fluxo magnético", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é um solenoide?",
+      "Explique solenoide.",
+      "Como bobinas geram campo magnético?"
+    ],
+    "resposta": "Um solenoide é uma bobina de fio que gera um campo magnético quando passa corrente elétrica. É usado em campainhas elétricas, válvulas e motores.",
+    "tags": ["eletromagnetismo", "solenoide", "conceito", "cotidiano"]
+  },
+  {
+    "perguntas": [
+      "O que é um campo elétrico?",
+      "Explique campo elétrico.",
+      "Como cargas elétricas influenciam o espaço ao redor?"
+    ],
+    "resposta": "Um campo elétrico é a região ao redor de uma carga onde outra carga sente uma força. Quanto mais intensa a carga, mais forte o campo.",
+    "tags": ["eletromagnetismo", "campo elétrico", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é energia armazenada em um capacitor?",
+      "Explique energia de um capacitor.",
+      "Como medir a energia de um capacitor carregado?"
+    ],
+    "resposta": "A energia armazenada em um capacitor é igual a metade do produto da capacitância pela tensão ao quadrado (E = ½ C V²). Ela pode ser liberada rapidamente quando o capacitor descarrega.",
+    "tags": ["eletromagnetismo", "capacitor", "energia", "conceito"]
+  },
+  {
+    "perguntas": [
+      "O que é corrente alternada e corrente contínua?",
+      "Explique AC e DC.",
+      "Qual a diferença entre eletricidade que muda de direção e a que vai só em um sentido?"
+    ],
+    "resposta": "Corrente contínua (DC) flui sempre na mesma direção, como em pilhas. Corrente alternada (AC) inverte sua direção periodicamente, como na energia elétrica das casas.",
+    "tags": ["eletromagnetismo", "corrente elétrica", "AC", "DC", "conceito", "cotidiano"]
+  }
+]

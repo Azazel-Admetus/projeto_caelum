@@ -1,0 +1,449 @@
+[
+  {
+    "perguntas": [
+      "Quem foi Isaac Newton?",
+      "Conte sobre Newton.",
+      "O que Newton descobriu?",
+      "Quem descobriu a gravidade?"
+    ],
+    "resposta": "Isaac Newton foi um físico, matemático e astrônomo inglês que formulou as leis do movimento e da gravitação universal, fundamentos da física clássica.",
+    "tags": ["Newton", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Galileo Galilei?",
+      "Conte sobre Galileu.",
+      "O que Galileu descobriu?"
+    ],
+    "resposta": "Galileo Galilei foi um cientista italiano, considerado o pai da física moderna. Ele estudou o movimento dos corpos e aprimorou o telescópio, observando astros como Júpiter e suas luas.",
+    "tags": ["Galileu", "mecânica", "astronomia", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Johannes Kepler?",
+      "Conte sobre Kepler.",
+      "O que Kepler descobriu?"
+    ],
+    "resposta": "Johannes Kepler foi um astrônomo alemão que formulou as três leis do movimento planetário, descrevendo como os planetas orbitam o Sol.",
+    "tags": ["Kepler", "astronomia", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Archimedes?",
+      "Conte sobre Arquimedes.",
+      "O que Arquimedes descobriu?"
+    ],
+    "resposta": "Arquimedes foi um matemático e físico grego que estudou a hidrostática e a alavanca. Ele formulou princípios fundamentais de mecânica e é famoso pelo 'Eureka!'.",
+    "tags": ["Arquimedes", "mecânica", "hidrostática", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi James Clerk Maxwell?",
+      "Conte sobre Maxwell.",
+      "O que Maxwell descobriu?"
+    ],
+    "resposta": "James Clerk Maxwell foi um físico escocês que formulou as equações de Maxwell, descrevendo o comportamento de campos elétricos e magnéticos e a propagação da luz.",
+    "tags": ["Maxwell", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Michael Faraday?",
+      "Conte sobre Faraday.",
+      "O que Faraday descobriu?"
+    ],
+    "resposta": "Michael Faraday foi um físico e químico inglês que descobriu a indução eletromagnética, criando o princípio usado em geradores e motores elétricos.",
+    "tags": ["Faraday", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi André-Marie Ampère?",
+      "Conte sobre Ampère.",
+      "O que Ampère descobriu?"
+    ],
+    "resposta": "André-Marie Ampère foi um físico e matemático francês que estudou o eletromagnetismo e definiu a lei que relaciona correntes elétricas e campos magnéticos.",
+    "tags": ["Ampère", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Antoine Lavoisier?",
+      "Conte sobre Lavoisier.",
+      "O que Lavoisier descobriu?"
+    ],
+    "resposta": "Antoine Lavoisier foi um químico francês considerado o pai da química moderna. Ele formulou a lei da conservação da massa e identificou o oxigênio como elemento.",
+    "tags": ["Lavoisier", "química", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Robert Boyle?",
+      "Conte sobre Boyle.",
+      "O que Boyle descobriu?"
+    ],
+    "resposta": "Robert Boyle foi um físico e químico anglo-irlandês, conhecido pela Lei de Boyle, que relaciona pressão e volume de gases em temperatura constante.",
+    "tags": ["Boyle", "gases", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Daniel Bernoulli?",
+      "Conte sobre Bernoulli.",
+      "O que Bernoulli descobriu?"
+    ],
+    "resposta": "Daniel Bernoulli foi um matemático e físico suíço que formulou o princípio de Bernoulli, explicando o comportamento de fluidos em movimento e a pressão em tubos e asas.",
+    "tags": ["Bernoulli", "fluídos", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi René Descartes?",
+      "Conte sobre Descartes.",
+      "O que Descartes descobriu?"
+    ],
+    "resposta": "René Descartes foi um filósofo e matemático francês que contribuiu para a geometria analítica e a física teórica, com estudos sobre movimento e leis da natureza.",
+    "tags": ["Descartes", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Blaise Pascal?",
+      "Conte sobre Pascal.",
+      "O que Pascal descobriu?"
+    ],
+    "resposta": "Blaise Pascal foi um físico e matemático francês que estudou a pressão em fluidos e inventou a primeira máquina de calcular mecânica.",
+    "tags": ["Pascal", "fluídos", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Leonhard Euler?",
+      "Conte sobre Euler.",
+      "O que Euler descobriu?"
+    ],
+    "resposta": "Leonhard Euler foi um matemático e físico suíço que fez contribuições essenciais em mecânica, hidrodinâmica e teoria dos grafos.",
+    "tags": ["Euler", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Joseph Fourier?",
+      "Conte sobre Fourier.",
+      "O que Fourier descobriu?"
+    ],
+    "resposta": "Joseph Fourier foi um físico e matemático francês que estudou a propagação de calor e desenvolveu a série de Fourier, usada para analisar fenômenos periódicos.",
+    "tags": ["Fourier", "termologia", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Torricelli?",
+      "Conte sobre Torricelli.",
+      "O que Torricelli descobriu?"
+    ],
+    "resposta": "Evangelista Torricelli foi um físico e matemático italiano que inventou o barômetro e estudou a pressão atmosférica.",
+    "tags": ["Torricelli", "pressão", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Henry Cavendish?",
+      "Conte sobre Cavendish.",
+      "O que Cavendish descobriu?"
+    ],
+    "resposta": "Henry Cavendish foi um físico britânico que mediu a densidade da Terra e descobriu a composição do ar, além de estudar a gravitação.",
+    "tags": ["Cavendish", "gravitação", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Alessandro Volta?",
+      "Conte sobre Volta.",
+      "O que Volta descobriu?"
+    ],
+    "resposta": "Alessandro Volta foi um físico italiano que inventou a pilha elétrica, permitindo a criação de corrente elétrica contínua.",
+    "tags": ["Volta", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Georg Ohm?",
+      "Conte sobre Ohm.",
+      "O que Ohm descobriu?"
+    ],
+    "resposta": "Georg Ohm foi um físico alemão que formulou a Lei de Ohm, relacionando tensão, corrente e resistência elétrica.",
+    "tags": ["Ohm", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Charles Coulomb?",
+      "Conte sobre Coulomb.",
+      "O que Coulomb descobriu?"
+    ],
+    "resposta": "Charles Coulomb foi um físico francês que estudou a força elétrica entre cargas e formulou a Lei de Coulomb.",
+    "tags": ["Coulomb", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi André-Marie Ampère?",
+      "Conte sobre Ampère.",
+      "O que Ampère descobriu?"
+    ],
+    "resposta": "André-Marie Ampère estudou o eletromagnetismo e definiu a relação entre correntes elétricas e campos magnéticos, criando a base da eletrodinâmica.",
+    "tags": ["Ampère", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Antoine Lavoisier?",
+      "Conte sobre Lavoisier.",
+      "O que Lavoisier descobriu?"
+    ],
+    "resposta": "Antoine Lavoisier foi um químico francês que estabeleceu a lei da conservação da massa e identificou o oxigênio como elemento químico, contribuindo para a química e física experimental.",
+    "tags": ["Lavoisier", "química", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Robert Hooke?",
+      "Conte sobre Hooke.",
+      "O que Hooke descobriu?"
+    ],
+    "resposta": "Robert Hooke foi um cientista inglês que formulou a Lei de Hooke sobre elasticidade e contribuiu para a microscopia.",
+    "tags": ["Hooke", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Christiaan Huygens?",
+      "Conte sobre Huygens.",
+      "O que Huygens descobriu?"
+    ],
+    "resposta": "Christiaan Huygens foi um físico holandês que estudou ondas, formulou a teoria ondulatória da luz e inventou o relógio de pêndulo.",
+    "tags": ["Huygens", "óptica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Jean-Baptiste Biot?",
+      "Conte sobre Biot.",
+      "O que Biot descobriu?"
+    ],
+    "resposta": "Jean-Baptiste Biot foi um físico francês que estudou a polarização da luz e contribuiu para a física óptica.",
+    "tags": ["Biot", "óptica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Augustin-Jean Fresnel?",
+      "Conte sobre Fresnel.",
+      "O que Fresnel descobriu?"
+    ],
+    "resposta": "Augustin-Jean Fresnel foi um físico francês que desenvolveu a teoria ondulatória da luz e inventou lentes para faróis e instrumentos ópticos.",
+    "tags": ["Fresnel", "óptica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Alessandro Volta?",
+      "Conte sobre Volta.",
+      "O que Volta descobriu?"
+    ],
+    "resposta": "Alessandro Volta foi um físico italiano que inventou a pilha elétrica, iniciando o estudo da eletricidade e energia elétrica.",
+    "tags": ["Volta", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Luigi Galvani?",
+      "Conte sobre Galvani.",
+      "O que Galvani descobriu?"
+    ],
+    "resposta": "Luigi Galvani foi um médico e físico italiano que descobriu a bioeletricidade, observando que músculos de rãs se contraíam com eletricidade.",
+    "tags": ["Galvani", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi André-Marie Ampère?",
+      "Conte sobre Ampère.",
+      "O que Ampère descobriu?"
+    ],
+    "resposta": "André-Marie Ampère foi um físico francês que estudou o eletromagnetismo, estabelecendo a lei que relaciona correntes elétricas e campos magnéticos.",
+    "tags": ["Ampère", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Benjamin Franklin?",
+      "Conte sobre Franklin.",
+      "O que Franklin descobriu?"
+    ],
+    "resposta": "Benjamin Franklin foi um polímata americano que estudou eletricidade e inventou o para-raios, ajudando a compreender cargas elétricas.",
+    "tags": ["Franklin", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi William Gilbert?",
+      "Conte sobre Gilbert.",
+      "O que Gilbert descobriu?"
+    ],
+    "resposta": "William Gilbert foi um médico e físico inglês que estudou magnetismo e é considerado o pai da ciência do magnetismo.",
+    "tags": ["Gilbert", "magnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Henry Cavendish?",
+      "Conte sobre Cavendish.",
+      "O que Cavendish descobriu?"
+    ],
+    "resposta": "Henry Cavendish foi um físico britânico que mediu a densidade da Terra e descobriu a composição do ar, além de estudar gravitação.",
+    "tags": ["Cavendish", "gravitação", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Joseph Priestley?",
+      "Conte sobre Priestley.",
+      "O que Priestley descobriu?"
+    ],
+    "resposta": "Joseph Priestley foi um químico e físico inglês que descobriu vários gases, incluindo o oxigênio, contribuindo para a química e termologia.",
+    "tags": ["Priestley", "química", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Daniel Gabriel Fahrenheit?",
+      "Conte sobre Fahrenheit.",
+      "O que Fahrenheit descobriu?"
+    ],
+    "resposta": "Daniel Gabriel Fahrenheit foi um físico e fabricante de instrumentos alemão-holandês que inventou o termômetro de mercúrio e a escala Fahrenheit.",
+    "tags": ["Fahrenheit", "termologia", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Anders Celsius?",
+      "Conte sobre Celsius.",
+      "O que Celsius descobriu?"
+    ],
+    "resposta": "Anders Celsius foi um astrônomo e físico sueco que criou a escala de temperatura Celsius.",
+    "tags": ["Celsius", "termologia", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi James Watt?",
+      "Conte sobre Watt.",
+      "O que Watt descobriu?"
+    ],
+    "resposta": "James Watt foi um engenheiro e inventor escocês que aprimorou a máquina a vapor, revolucionando a termodinâmica e a indústria.",
+    "tags": ["Watt", "termodinâmica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Sadi Carnot?",
+      "Conte sobre Carnot.",
+      "O que Carnot descobriu?"
+    ],
+    "resposta": "Sadi Carnot foi um físico francês que estudou ciclos de calor e estabeleceu princípios fundamentais da termodinâmica.",
+    "tags": ["Carnot", "termodinâmica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Robert Stephenson?",
+      "Conte sobre Stephenson.",
+      "O que Stephenson descobriu?"
+    ],
+    "resposta": "Robert Stephenson foi um engenheiro britânico famoso por aprimorar locomotivas a vapor, aplicando princípios da física mecânica e termodinâmica.",
+    "tags": ["Stephenson", "mecânica", "termodinâmica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi André-Marie Ampère?",
+      "Conte sobre Ampère.",
+      "O que Ampère descobriu?"
+    ],
+    "resposta": "Ampère desenvolveu a base da eletrodinâmica, descrevendo a interação entre correntes elétricas e campos magnéticos.",
+    "tags": ["Ampère", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Hans Christian Ørsted?",
+      "Conte sobre Ørsted.",
+      "O que Ørsted descobriu?"
+    ],
+    "resposta": "Hans Christian Ørsted foi um físico dinamarquês que descobriu a relação entre eletricidade e magnetismo, mostrando que uma corrente elétrica gera um campo magnético.",
+    "tags": ["Ørsted", "eletromagnetismo", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Alessandro Volta?",
+      "Conte sobre Volta.",
+      "O que Volta descobriu?"
+    ],
+    "resposta": "Volta inventou a pilha elétrica, permitindo a criação de corrente elétrica contínua e estudando propriedades da eletricidade.",
+    "tags": ["Volta", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Georg Ohm?",
+      "Conte sobre Ohm.",
+      "O que Ohm descobriu?"
+    ],
+    "resposta": "Georg Ohm foi um físico alemão que formulou a Lei de Ohm, relacionando tensão, corrente e resistência elétrica.",
+    "tags": ["Ohm", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Charles-Augustin de Coulomb?",
+      "Conte sobre Coulomb.",
+      "O que Coulomb descobriu?"
+    ],
+    "resposta": "Charles-Augustin de Coulomb estudou forças entre cargas elétricas e formulou a Lei de Coulomb.",
+    "tags": ["Coulomb", "eletricidade", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Emilie du Châtelet?",
+      "Conte sobre Châtelet.",
+      "O que Châtelet descobriu?"
+    ],
+    "resposta": "Emilie du Châtelet foi uma física e matemática francesa que traduziu e comentou as obras de Newton, ajudando a divulgar e interpretar a mecânica clássica.",
+    "tags": ["Châtelet", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Pierre-Simon Laplace?",
+      "Conte sobre Laplace.",
+      "O que Laplace descobriu?"
+    ],
+    "resposta": "Pierre-Simon Laplace foi um matemático e físico francês que contribuiu para a mecânica celeste, estatística e hidrodinâmica.",
+    "tags": ["Laplace", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Joseph-Louis Lagrange?",
+      "Conte sobre Lagrange.",
+      "O que Lagrange descobriu?"
+    ],
+    "resposta": "Joseph-Louis Lagrange foi um matemático e físico italiano-francês que desenvolveu a mecânica lagrangiana, um método poderoso para descrever movimentos.",
+    "tags": ["Lagrange", "mecânica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Daniel Bernoulli?",
+      "Conte sobre Bernoulli.",
+      "O que Bernoulli descobriu?"
+    ],
+    "resposta": "Daniel Bernoulli formulou o princípio de Bernoulli, explicando o comportamento de fluidos em movimento e a pressão em tubos e asas.",
+    "tags": ["Bernoulli", "fluídos", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Thomas Young?",
+      "Conte sobre Young.",
+      "O que Young descobriu?"
+    ],
+    "resposta": "Thomas Young foi um físico inglês que estudou a luz, propondo a teoria da interferência e contribuindo para a óptica moderna.",
+    "tags": ["Young", "óptica", "clássico"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Albert Einstein?",
+      "Fale sobre Einstein.",
+      "O que Einstein descobriu?",
+      "Quem inventou a teoria da relatividade?",
+      "Explique quem foi Einstein."
+    ],
+    "resposta": "Albert Einstein foi um físico teórico alemão, famoso por desenvolver a Teoria da Relatividade, que mudou nossa compreensão sobre espaço, tempo e energia. Ele também fez importantes contribuições para a física quântica.",
+    "tags": ["biografia", "físico", "Einstein"]
+  },
+  {
+    "perguntas": [
+      "Quem foi Nikola Tesla?",
+      "Fale sobre Tesla.",
+      "O que Tesla inventou?",
+      "Quem descobriu a corrente alternada?",
+      "Explique quem foi Nikola Tesla."
+    ],
+    "resposta": "Nikola Tesla foi um inventor, engenheiro elétrico e físico sérvio-americano, conhecido por suas contribuições ao desenvolvimento da corrente alternada (CA), além de diversos dispositivos elétricos e experimentos em eletricidade e magnetismo.",
+    "tags": ["biografia", "inventor", "Tesla"]
+  }
+
+]
