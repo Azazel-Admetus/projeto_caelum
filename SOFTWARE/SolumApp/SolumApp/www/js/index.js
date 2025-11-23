@@ -27,3 +27,29 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 }
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("mainButton");
+    const ring = document.getElementById("ring");
+
+    let expanded = false;
+
+    button.addEventListener("click", () => {
+        expanded = !expanded;
+
+        if (expanded) {
+            // expande o botão
+            button.style.transform = "scale(1.2)";
+
+            // ativa o anel
+            ring.style.opacity = "1";
+            ring.classList.add("spin");
+        } else {
+            // volta ao normal
+            button.style.transform = "scale(1)";
+
+            // desativa o anel
+            ring.style.opacity = "0";
+            ring.classList.remove("spin");
+        }
+    });
+});

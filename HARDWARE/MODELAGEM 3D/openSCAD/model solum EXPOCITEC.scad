@@ -28,7 +28,7 @@ peg_d = 6;
 peg_h = 8;
 
 // modos
-view_mode =6;
+view_mode =0;
 // -------------------- HELPERS --------------------
 function slot_len_for_wall_x() = body_x - 2*wall;
 function slot_len_for_wall_y() = body_y - 2*wall;
