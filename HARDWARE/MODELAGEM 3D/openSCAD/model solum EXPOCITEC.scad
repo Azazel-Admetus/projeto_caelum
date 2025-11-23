@@ -28,7 +28,7 @@ peg_d = 6;
 peg_h = 8;
 
 // modos
-view_mode =2;
+view_mode =6;
 // -------------------- HELPERS --------------------
 function slot_len_for_wall_x() = body_x - 2*wall;
 function slot_len_for_wall_y() = body_y - 2*wall;
@@ -179,10 +179,13 @@ module head_unit() {
 
         eye_r = 6;
 
-        translate([head_x*0.25, -1, head_z*0.6])
+        // Olho esquerdo
+        translate([head_x*0.25, head_wall/2, head_z*0.6])
             rotate([90,0,0]) cylinder(h=head_y+3, r=eye_r, $fn=48);
 
-        translate([head_x*0.75, -1, head_z*0.6])
+        // Olho direito
+        translate([head_x*0.75, head_wall/2, head_z*0.6])
+
             rotate([90,0,0]) cylinder(h=head_y+3, r=eye_r, $fn=48);
     }
 
